@@ -9,6 +9,7 @@ import java.util.function.BiFunction;
 import java.util.function.Consumer;
 import java.util.function.Supplier;
 
+import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 
 public class StatsDecorator {
@@ -27,6 +28,7 @@ public class StatsDecorator {
 	}
 	
 	public StatsDecorator() {
+        Logger.getRootLogger().setLevel(Level.DEBUG);
 		statsExec = new HashMap<String, List<Long>>();
 	}
 	
