@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ee4c960-d44e-4ad4-86c9-0ef366f7ddc6" name="Default" comment="Solutions alternatives">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/fr/ippon/contest/puissance4/Puissance4Impl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="puissance4.iws" />
@@ -44,19 +43,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Puissance4Test.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Puissance4Test.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/fr/ippon/contest/puissance4/Puissance4Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2601">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.33951762" vertical-offset="2775" max-vertical-offset="4063">
+              <caret line="174" column="0" selection-start-line="174" selection-start-column="0" selection-end-line="174" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#testChargerJeu#0;class#Puissance4Test#0" expanded="false" />
-                <element signature="method#testChargerColonneGagnante#0;class#Puissance4Test#0" expanded="false" />
-                <element signature="method#testChargerDiagonaleGagnante#0;class#Puissance4Test#0" expanded="false" />
-                <element signature="method#testjouerLigneGagnante#0;class#Puissance4Test#0" expanded="false" />
-                <element signature="method#testJouerColonneGagnante#0;class#Puissance4Test#0" expanded="false" />
-                <element signature="method#testChargerNul#0;class#Puissance4Test#0" expanded="false" />
+                <element signature="e#493#494#0" expanded="true" />
+                <element signature="e#556#557#0" expanded="true" />
+                <element signature="e#7797#7798#0" expanded="true" />
+                <element signature="e#7820#7821#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StatsDecorator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/fr/ippon/contest/puissance4/StatsDecorator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="684" max-vertical-offset="1683">
+              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Logger.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar!/org/apache/log4j/Logger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1619" max-vertical-offset="3315">
+              <caret line="133" column="9" selection-start-line="133" selection-start-column="9" selection-end-line="133" selection-end-column="24" />
+              <folding>
+                <element signature="e#3602#3603#0" expanded="true" />
+                <element signature="e#3645#3646#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Category.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar!/org/apache/log4j/Category.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="11173" max-vertical-offset="16813">
+              <caret line="735" column="0" selection-start-line="735" selection-start-column="0" selection-end-line="735" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Hierarchy.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar!/org/apache/log4j/Hierarchy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="5019" max-vertical-offset="8942">
+              <caret line="355" column="0" selection-start-line="355" selection-start-column="0" selection-end-line="355" selection-end-column="0" />
+              <folding>
+                <element signature="e#10043#10044#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -65,8 +109,8 @@
       <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/fr/ippon/contest/puissance4/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1190">
-              <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="31" max-vertical-offset="1224">
+              <caret line="38" column="42" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -82,15 +126,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Puissance4Impl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Puissance4Impl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/fr/ippon/contest/puissance4/Puissance4Impl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.16372392" vertical-offset="0" max-vertical-offset="2329">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="2625" max-vertical-offset="3162">
+              <caret line="341" column="0" selection-start-line="341" selection-start-column="0" selection-end-line="341" selection-end-column="0" />
               <folding>
                 <element signature="e#2384#2385#0" expanded="true" />
                 <element signature="e#2417#2418#0" expanded="true" />
-                <element signature="method#vérifieSérieGagnante#0;class#Puissance4Impl#0" expanded="false" />
                 <element signature="e#3473#3591#0" expanded="false" />
                 <element signature="e#3747#3787#0" expanded="false" />
                 <element signature="method#vérifieSiMatchNul#0;class#Puissance4Impl#0" expanded="false" />
@@ -106,8 +149,17 @@
                 <element signature="docComment;method#getEtatJeu#0;class#Puissance4Impl#0" expanded="false" />
                 <element signature="docComment;method#getTour#0;class#Puissance4Impl#0" expanded="false" />
                 <element signature="method#getOccupant#0;class#Puissance4Impl#0" expanded="false" />
-                <element signature="method#jouer#0;class#Puissance4Impl#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Puissance4StatsDecorator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/fr/ippon/contest/puissance4/Puissance4StatsDecorator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="589" max-vertical-offset="1139">
+              <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -141,45 +193,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClassLoader.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../Libraries/jdk1.8.0_40/src.zip!/java/lang/ClassLoader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="6141" max-vertical-offset="36295">
-              <caret line="435" column="0" selection-start-line="435" selection-start-column="0" selection-end-line="435" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#84034#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#10138#10139#0" expanded="false" />
-                <element signature="e#10175#10176#0" expanded="false" />
-                <element signature="e#11985#11986#0" expanded="false" />
-                <element signature="e#12039#12040#0" expanded="false" />
-                <element signature="e#12714#12715#0" expanded="false" />
-                <element signature="e#12784#12785#0" expanded="false" />
-                <element signature="e#37607#37608#0" expanded="false" />
-                <element signature="e#37639#37640#0" expanded="false" />
-                <element signature="e#40516#40517#0" expanded="false" />
-                <element signature="e#40553#40554#0" expanded="false" />
-                <element signature="e#44327#44328#0" expanded="false" />
-                <element signature="e#44354#44355#0" expanded="false" />
-                <element signature="e#48236#48237#0" expanded="false" />
-                <element signature="e#48299#48300#0" expanded="false" />
-                <element signature="e#48346#48347#0" expanded="false" />
-                <element signature="e#48404#48405#0" expanded="false" />
-                <element signature="e#48547#48548#0" expanded="false" />
-                <element signature="e#48611#48612#0" expanded="false" />
-                <element signature="e#63083#63084#0" expanded="false" />
-                <element signature="e#63110#63111#0" expanded="false" />
-                <element signature="e#65915#65916#0" expanded="false" />
-                <element signature="e#65995#65996#0" expanded="false" />
-                <element signature="e#70346#70347#0" expanded="false" />
-                <element signature="e#70436#70437#0" expanded="false" />
-                <element signature="e#83492#83493#0" expanded="false" />
-                <element signature="e#83528#83529#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -195,6 +208,7 @@
         <option value="$PROJECT_DIR$/src/main/java/fr/ippon/contest/puissance4/Puissance4Impl4.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr/ippon/contest/puissance4/Puissance4Impl.java" />
         <option value="$PROJECT_DIR$/src/test/java/fr/ippon/contest/puissance4/Puissance4Test.java" />
+        <option value="$PROJECT_DIR$/src/test/java/fr/ippon/contest/puissance4/StatsDecorator.java" />
       </list>
     </option>
   </component>
@@ -763,9 +777,9 @@
       <method />
     </configuration>
     <list size="6">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.Puissance4Test" />
-      <item index="1" class="java.lang.String" itemvalue="Application.App" />
-      <item index="2" class="java.lang.String" itemvalue="Application.AppProfiler" />
+      <item index="0" class="java.lang.String" itemvalue="Application.App" />
+      <item index="1" class="java.lang.String" itemvalue="Application.AppProfiler" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.Puissance4Test" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.Puissance4Test.testJouerDiagonaleGagnante" />
       <item index="4" class="java.lang.String" itemvalue="JUnit.Puissance4Test.testJouer" />
       <item index="5" class="java.lang.String" itemvalue="JUnit.Puissance4Test.testChargerColonneGagnante" />
@@ -806,22 +820,42 @@
     <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="1350" y="92" width="478" height="513" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5638528" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28138527" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38636363" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18443497" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -865,7 +899,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="46" />
+      <option name="time" value="50" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -899,12 +933,10 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#testChargerJeu#0;class#Puissance4Test#0" expanded="false" />
-            <element signature="method#testChargerColonneGagnante#0;class#Puissance4Test#0" expanded="false" />
-            <element signature="method#testChargerDiagonaleGagnante#0;class#Puissance4Test#0" expanded="false" />
-            <element signature="method#testjouerLigneGagnante#0;class#Puissance4Test#0" expanded="false" />
-            <element signature="method#testJouerColonneGagnante#0;class#Puissance4Test#0" expanded="false" />
-            <element signature="method#testChargerNul#0;class#Puissance4Test#0" expanded="false" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#7797#7798#0" expanded="true" />
+            <element signature="e#7820#7821#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1006,12 +1038,10 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#testChargerJeu#0;class#Puissance4Test#0" expanded="false" />
-            <element signature="method#testChargerColonneGagnante#0;class#Puissance4Test#0" expanded="false" />
-            <element signature="method#testChargerDiagonaleGagnante#0;class#Puissance4Test#0" expanded="false" />
-            <element signature="method#testjouerLigneGagnante#0;class#Puissance4Test#0" expanded="false" />
-            <element signature="method#testJouerColonneGagnante#0;class#Puissance4Test#0" expanded="false" />
-            <element signature="method#testChargerNul#0;class#Puissance4Test#0" expanded="false" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#7797#7798#0" expanded="true" />
+            <element signature="e#7820#7821#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1113,12 +1143,10 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#testChargerJeu#0;class#Puissance4Test#0" expanded="false" />
-            <element signature="method#testChargerColonneGagnante#0;class#Puissance4Test#0" expanded="false" />
-            <element signature="method#testChargerDiagonaleGagnante#0;class#Puissance4Test#0" expanded="false" />
-            <element signature="method#testjouerLigneGagnante#0;class#Puissance4Test#0" expanded="false" />
-            <element signature="method#testJouerColonneGagnante#0;class#Puissance4Test#0" expanded="false" />
-            <element signature="method#testChargerNul#0;class#Puissance4Test#0" expanded="false" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#7797#7798#0" expanded="true" />
+            <element signature="e#7820#7821#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1224,13 +1252,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.71899223" vertical-offset="343" max-vertical-offset="884">
           <caret line="61" column="16" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../tmp/jUnit.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="598">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1356,14 +1377,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/ippon/contest/puissance4/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1190">
-          <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fr/ippon/contest/puissance4/Puissance4.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="344" max-vertical-offset="1054">
@@ -1380,30 +1393,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/fr/ippon/contest/puissance4/Puissance4Test.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/ippon/contest/puissance4/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2601">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="1258">
+          <caret line="38" column="42" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../tmp/jUnit.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="539">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar!/org/apache/log4j/Hierarchy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5019" max-vertical-offset="8942">
+          <caret line="355" column="0" selection-start-line="355" selection-start-column="0" selection-end-line="355" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#testChargerJeu#0;class#Puissance4Test#0" expanded="false" />
-            <element signature="method#testChargerColonneGagnante#0;class#Puissance4Test#0" expanded="false" />
-            <element signature="method#testChargerDiagonaleGagnante#0;class#Puissance4Test#0" expanded="false" />
-            <element signature="method#testjouerLigneGagnante#0;class#Puissance4Test#0" expanded="false" />
-            <element signature="method#testJouerColonneGagnante#0;class#Puissance4Test#0" expanded="false" />
-            <element signature="method#testChargerNul#0;class#Puissance4Test#0" expanded="false" />
+            <element signature="e#10043#10044#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar!/org/apache/log4j/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="11173" max-vertical-offset="16813">
+          <caret line="735" column="0" selection-start-line="735" selection-start-column="0" selection-end-line="735" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar!/org/apache/log4j/Level.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33272728" vertical-offset="769" max-vertical-offset="3434">
+          <caret line="78" column="28" selection-start-line="78" selection-start-column="28" selection-end-line="78" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar!/org/apache/log4j/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1619" max-vertical-offset="3315">
+          <caret line="133" column="9" selection-start-line="133" selection-start-column="9" selection-end-line="133" selection-end-column="24" />
+          <folding>
+            <element signature="e#3602#3603#0" expanded="true" />
+            <element signature="e#3645#3646#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fr/ippon/contest/puissance4/Puissance4Impl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16372392" vertical-offset="0" max-vertical-offset="2329">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="2625" max-vertical-offset="3162">
+          <caret line="341" column="0" selection-start-line="341" selection-start-column="0" selection-end-line="341" selection-end-column="0" />
           <folding>
             <element signature="e#2384#2385#0" expanded="true" />
             <element signature="e#2417#2418#0" expanded="true" />
-            <element signature="method#vérifieSérieGagnante#0;class#Puissance4Impl#0" expanded="false" />
             <element signature="e#3473#3591#0" expanded="false" />
             <element signature="e#3747#3787#0" expanded="false" />
             <element signature="method#vérifieSiMatchNul#0;class#Puissance4Impl#0" expanded="false" />
@@ -1419,7 +1468,38 @@
             <element signature="docComment;method#getEtatJeu#0;class#Puissance4Impl#0" expanded="false" />
             <element signature="docComment;method#getTour#0;class#Puissance4Impl#0" expanded="false" />
             <element signature="method#getOccupant#0;class#Puissance4Impl#0" expanded="false" />
-            <element signature="method#jouer#0;class#Puissance4Impl#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/fr/ippon/contest/puissance4/StatsDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="684" max-vertical-offset="1683">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/fr/ippon/contest/puissance4/Puissance4StatsDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="589" max-vertical-offset="1139">
+          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/fr/ippon/contest/puissance4/Puissance4Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33951762" vertical-offset="2775" max-vertical-offset="4063">
+          <caret line="174" column="0" selection-start-line="174" selection-start-column="0" selection-end-line="174" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#7797#7798#0" expanded="true" />
+            <element signature="e#7820#7821#0" expanded="true" />
           </folding>
         </state>
       </provider>
