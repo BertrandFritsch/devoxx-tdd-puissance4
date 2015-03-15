@@ -22,7 +22,7 @@ public class Puissance4Impl implements Puissance4 {
      * est fourni à la fonction {@link Puissance4Impl#chargerJeu}.
      * </p>
      * <p>
-     *     C'est la fonction {@link Puissance4Impl#vérifieSérieGagnante} qui fait cette vérification. Elle s'attend à recevoir
+     *     C'est la fonction {@link Puissance4Impl#vérifieSiSérieGagnante} qui fait cette vérification. Elle s'attend à recevoir
      * une série de cellules à analyser. Cette série représente soit une colonne de la grille, soit une ligne,
      * soit une diagonale. Selon le contexte d'appel, la longueur de la série varie.
      * Au chargement du jeu, elle reçoit à analyser, toutes les colones, toutes les lignes et toutes les diagonales
@@ -59,7 +59,7 @@ public class Puissance4Impl implements Puissance4 {
       *
      * @return true si une combinaison gagnante est trouvée
      */
-    private boolean vérifieSérieGagnante(int débutLigne, int débutColonne, int incrémentLigne, int incrémentColonne, int longueurSérie) {
+    private boolean vérifieSiSérieGagnante(int débutLigne, int débutColonne, int incrémentLigne, int incrémentColonne, int longueurSérie) {
         char couleurCourante = '-';
 
         // dés que 4 jetons successifs sont rencontrés, la série est considérée gagnante
@@ -121,26 +121,26 @@ public class Puissance4Impl implements Puissance4 {
         int nombreDeJetonsColonneDroite = Math.min(3, NOMBRE_DE_COLONNES - 1 - colonne);
 
         // Cette fonction teste les différentes combinaisons qui sont susceptibles d'être gagnantes suite à l'ajout du dernier jeton.
-        // La fonction se base sur la fonction vérifieSérieGagnante pour passer en revue les différentes possibilités, l'une après l'autre.
+        // La fonction se base sur la fonction vérifieSiSérieGagnante pour passer en revue les différentes possibilités, l'une après l'autre.
         //
         // Notons que cette recherche pourrait être optimisée en ne cherchant que la combinaison gagnante de la même couleur que le joureur courant,
         // et en partant du dernier jeton introduit. Mais comme cela ne permet pas de gain substanciel, il est préférable de réutiliser la fonction
-        // vérifieSérieGagnante et ainsi de n'avoir qu'un seul code de recherche de combinaison gagnante.
+        // vérifieSiSérieGagnante et ainsi de n'avoir qu'un seul code de recherche de combinaison gagnante.
 
 
         // vérifier les différentes combinaisons potentiellement gagnantes
         return
                 // vérifier si la colonne est gagnante
-                vérifieSérieGagnante(ligne + nombreDeJetonsLigneInférieur, colonne, -1, 0, nombreDeJetonsLigneInférieur + 1)
+                vérifieSiSérieGagnante(ligne + nombreDeJetonsLigneInférieur, colonne, -1, 0, nombreDeJetonsLigneInférieur + 1)
 
              // vérifier si la ligne est gagnante
-             || vérifieSérieGagnante(ligne, colonne - nombreDeJetonsColonneGauche, 0, 1, nombreDeJetonsColonneGauche + 1 + nombreDeJetonsColonneDroite)
+             || vérifieSiSérieGagnante(ligne, colonne - nombreDeJetonsColonneGauche, 0, 1, nombreDeJetonsColonneGauche + 1 + nombreDeJetonsColonneDroite)
 
              // vérifier si la diagonale de gauche à droite de bas en haut est gagnante
-             || vérifieSérieGagnante(ligne + Math.min(nombreDeJetonsColonneGauche, nombreDeJetonsLigneInférieur), colonne - Math.min(nombreDeJetonsColonneGauche, nombreDeJetonsLigneInférieur), -1, 1, Math.min(nombreDeJetonsLigneInférieur, nombreDeJetonsColonneGauche) + 1 + Math.min(nombreDeJetonsLigneSupérieur, nombreDeJetonsColonneDroite))
+             || vérifieSiSérieGagnante(ligne + Math.min(nombreDeJetonsColonneGauche, nombreDeJetonsLigneInférieur), colonne - Math.min(nombreDeJetonsColonneGauche, nombreDeJetonsLigneInférieur), -1, 1, Math.min(nombreDeJetonsLigneInférieur, nombreDeJetonsColonneGauche) + 1 + Math.min(nombreDeJetonsLigneSupérieur, nombreDeJetonsColonneDroite))
 
              // vérifier si la dialoginale de droite à gauche de bas en haut est gagnante
-             || vérifieSérieGagnante(ligne - Math.min(nombreDeJetonsColonneGauche, nombreDeJetonsLigneSupérieur), colonne - Math.min(nombreDeJetonsColonneGauche, nombreDeJetonsLigneInférieur), 1, 1, Math.min(nombreDeJetonsLigneSupérieur, nombreDeJetonsColonneGauche) + 1 + Math.min(nombreDeJetonsLigneInférieur, nombreDeJetonsColonneDroite))
+             || vérifieSiSérieGagnante(ligne - Math.min(nombreDeJetonsColonneGauche, nombreDeJetonsLigneSupérieur), colonne - Math.min(nombreDeJetonsColonneGauche, nombreDeJetonsLigneInférieur), 1, 1, Math.min(nombreDeJetonsLigneSupérieur, nombreDeJetonsColonneGauche) + 1 + Math.min(nombreDeJetonsLigneInférieur, nombreDeJetonsColonneDroite))
 
              // vérifier si le match est nul
              || vérifieSiMatchNul();
@@ -236,35 +236,35 @@ public class Puissance4Impl implements Puissance4 {
 
         // recherche d'une combinaison gagnante dans les colonnes
         for (int colonne = 0; colonne < NOMBRE_DE_COLONNES; ++colonne) {
-            if (vérifieSérieGagnante(NOMBRE_DE_LIGNES - 1, colonne, -1, 0, NOMBRE_DE_LIGNES))
+            if (vérifieSiSérieGagnante(NOMBRE_DE_LIGNES - 1, colonne, -1, 0, NOMBRE_DE_LIGNES))
                 return;
         }
 
         // recherche d'une combinaison gagnante dans les lignes
         // on commence la recherche au bas de la grille
         for (int ligne = NOMBRE_DE_LIGNES - 1; ligne >= 0; --ligne) {
-            if (vérifieSérieGagnante(ligne, 0, 0, 1, NOMBRE_DE_COLONNES))
+            if (vérifieSiSérieGagnante(ligne, 0, 0, 1, NOMBRE_DE_COLONNES))
                 return;
         }
 
         // recherche d'une combaison gagnante dans les diagonales
         if (
             // d'abord les diagonales du bas vers le haut de gauche à droite
-            // le peu de lignes permet d'exprimer les appels de la fonction vérifieSérieGagnante en extension
-               vérifieSérieGagnante(3, 0, -1, +1, 4)
-            || vérifieSérieGagnante(4, 0, -1, +1, 5)
-            || vérifieSérieGagnante(5, 0, -1, +1, 6)
-            || vérifieSérieGagnante(5, 1, -1, +1, 6)
-            || vérifieSérieGagnante(5, 2, -1, +1, 5)
-            || vérifieSérieGagnante(5, 3, -1, +1, 4)
+            // le peu de lignes permet d'exprimer les appels de la fonction vérifieSiSérieGagnante en extension
+               vérifieSiSérieGagnante(3, 0, -1, +1, 4)
+            || vérifieSiSérieGagnante(4, 0, -1, +1, 5)
+            || vérifieSiSérieGagnante(5, 0, -1, +1, 6)
+            || vérifieSiSérieGagnante(5, 1, -1, +1, 6)
+            || vérifieSiSérieGagnante(5, 2, -1, +1, 5)
+            || vérifieSiSérieGagnante(5, 3, -1, +1, 4)
 
             // ensuite les diagonales du bas vers le haut de droite à gauche
-            || vérifieSérieGagnante(5, 3, -1, -1, 4)
-            || vérifieSérieGagnante(5, 4, -1, -1, 5)
-            || vérifieSérieGagnante(5, 5, -1, -1, 6)
-            || vérifieSérieGagnante(5, 6, -1, -1, 6)
-            || vérifieSérieGagnante(4, 6, -1, -1, 5)
-            || vérifieSérieGagnante(3, 6, -1, -1, 4)
+            || vérifieSiSérieGagnante(5, 3, -1, -1, 4)
+            || vérifieSiSérieGagnante(5, 4, -1, -1, 5)
+            || vérifieSiSérieGagnante(5, 5, -1, -1, 6)
+            || vérifieSiSérieGagnante(5, 6, -1, -1, 6)
+            || vérifieSiSérieGagnante(4, 6, -1, -1, 5)
+            || vérifieSiSérieGagnante(3, 6, -1, -1, 4)
             )
             return;
 
